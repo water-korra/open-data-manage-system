@@ -1,11 +1,9 @@
-const dotenv = require('dotenv').config();
-const { Sequelize } = require('sequelize');
-
+const { Sequelize } = require("sequelize");
 const options = {
-  database: process.env.MYSQL_DB,
-  username: process.env.MYSQL_USER,
-  password: process.env.MYSQL_PASSWORD,
-  dialect: 'mysql',
+  database: "mydb",
+  username: "root",
+  password: "VasyaLooser123",
+  dialect: "mysql",
   define: {
     timestamps: false,
     freezeTableName: true,
